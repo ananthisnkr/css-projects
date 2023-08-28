@@ -1,0 +1,18 @@
+.table{
+    width:100%;
+}
+.row{
+    display: flex;
+    width: 100%;
+}
+
+.row > div{
+    background-color: aqua;
+    width : 33.3%;
+}
+
+.header > div{
+    font-weight: bold;
+    background-color: blue !important;
+}
+

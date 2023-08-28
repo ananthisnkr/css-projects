@@ -1,0 +1,80 @@
+.header{ 
+    width:100%; 
+    display:flex;
+    
+    font-weight: bold;
+}
+.navbar{
+    width: 50%;    
+}
+.heading{
+    width: 50%; 
+    margin:auto;
+    text-align: center;
+  background-color: burlywood;
+ }
+ul{
+    
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    background-color: black;
+ 
+}
+li{
+    float:left; 
+}
+li a{
+    color:white;
+    text-decoration: none;
+    height: auto;
+    font-size: 25px;
+    padding:14px 16px;
+}
+
+.list:hover{
+    background-color: rgb(172, 225, 14);
+}
+.bodyarea{
+  
+    display: grid;
+    grid-template-rows: 200px 200px;
+    grid-template-columns: 20% 20% 20% 20%;
+    gap:15px;
+    grid-row-start: 50px;
+    padding :150px;
+    background-image:url("lav.jpg");
+    background-size: cover;
+}
+.tile{
+   
+    background-color: white;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    padding:30px;
+}
+.con1,.con8{
+    background-image: url("robo.jpg");
+    background-size: cover;
+}
+.con2:hover{
+    background-color: yellow;
+}
+
+.con3:hover{
+    background-color: lawngreen;
+}
+.con4:hover{
+    background-color: lightpink;
+}
+.con5:hover{
+    background-color: violet;
+}
+.con6:hover{
+    background-color: skyblue;
+}
+.con7:hover{
+    background-color: fuchsia;
+}

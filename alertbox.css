@@ -1,0 +1,25 @@
+.alert{
+    padding:30px;
+    background-color: red;
+    color:white;
+    opacity: 1;
+    transition: opacity 0.6s;
+}
+
+.msg2{
+    background-color: yellow;
+}
+.msg3{
+    background-color: aquamarine;
+}
+.msg4{
+    background-color: blueviolet;
+}
+.closebtn{
+    color:white;
+    float:right;
+    cursor: pointer;
+}
+span:hover(){
+    color: black;
+}

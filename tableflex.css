@@ -1,0 +1,27 @@
+
+.table{
+    width:50%;
+}
+.row:nth-child(odd){
+    background-color: #b2b2b2;
+    border: 1px double;
+}
+.row,.header{
+    display: flex;
+    width: 100%;
+    
+}
+.col1,.col2,.col3{
+        width: 33.33%;
+        padding: 5px;
+}
+.header{
+    font-weight: bold;
+    background-color: dodgerblue;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.header .col1, .header .col2, .header .col3{
+    text-align: left;
+}

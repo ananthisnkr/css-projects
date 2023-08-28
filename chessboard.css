@@ -1,0 +1,32 @@
+body{
+    background-color: aqua;
+    
+}
+
+
+.board{
+   border:10px double black;
+    width: 800px;
+    height: 800px;
+    background-color: white;
+    margin: 50px auto;
+}
+.row{
+   width:100% ;
+   
+}
+.col{
+    width: 100px;
+    height:100px;
+    font-size: 60px;
+    text-align: center;
+    display : inline-block;
+    float:left;
+
+}
+.col:hover{
+    background-color:red;
+}
+.black{
+    background-color: gray;
+}

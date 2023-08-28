@@ -1,0 +1,52 @@
+.topnav{
+    overflow: hidden;
+    background-color: black;
+}
+.topnav a{
+    display: block;
+    float: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    color:white;
+}
+.dropdown {
+    overflow: hidden;
+   float:left
+    
+}
+.dropdown .dropbtn{
+    border: none;
+    outline:none;
+    color:white;
+    background-color: inherit;
+    font-style: inherit;
+    margin: 0;
+    padding:14px 16px;
+    font-size: inherit;
+}
+.dropdowncontent{
+    display:none; 
+    position: absolute;
+    min-width: 100px;
+    background-color: beige;
+    z-index: 1;
+
+color:black;
+    
+}
+.dropdowncontent a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    float: none;
+}
+.dropdown:hover .dropdowncontent{
+    display:block;
+}
+.topnav a:hover 
+{
+    background-color: blueviolet;
+}
+.dropdowncontent a:hover{
+    background-color: grey;
+}

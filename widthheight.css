@@ -1,0 +1,26 @@
+.hw{
+    background-color: aqua;
+    border : 1px solid red;
+    text-align: center;
+    text-transform: capitalize;
+    
+    
+}
+.swidth1{
+    border :1px solid blue;
+    background-color: salmon;
+    padding :10px;
+    margin-bottom: 30px;
+    max-height:300px;
+    overflow: hidden;
+    text-align: justify;
+    column-count: 3;
+    column-gap: 30px;
+    padding :20px;
+    font-size: 20px;
+}
+.swidth2{
+    border :1px solid blue;
+    background-color: yellowgreen;
+   
+}

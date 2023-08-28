@@ -1,0 +1,22 @@
+
+.heading{
+    background-color: yellow;
+}
+.table1{
+    background-color: blue;
+}
+.thead{
+    border : 1px solid;
+    padding:3px;
+    display : inline;
+    background-color: pink;
+    text-align: center;
+    font-weight: bold;
+}
+
+.tdata1,.tdata2{
+    border : 1px solid;
+  
+    display:inline;
+}
+

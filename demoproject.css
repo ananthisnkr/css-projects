@@ -1,0 +1,39 @@
+
+.logo{
+  
+    width: 50%;
+    height:50px;
+    background-color: pink;
+    margin:auto;
+    font-size: 20px;
+    
+   
+
+}
+
+.header{
+    background-color: pink;
+    display: flex;
+  
+    width:50% 50%;
+    height:100px;
+    
+
+    
+}
+.rowhead{
+    list-style-type: none;
+    display: inline-block;
+    
+}
+.col{
+    float : left;
+   font-size: large;
+   
+    height:100px;
+    padding:10px;
+}
+
+.col:hover{
+    background-color: grey;
+}

@@ -1,0 +1,29 @@
+ .item1{
+    grid-area: header;
+}
+.item2{
+    grid-area: menuu;
+}.item3{
+    grid-area: mainn;
+}.item4{
+    grid-area: rightt;
+} 
+.item5{
+     grid-area:footer;
+}
+
+.gridcontainer{
+    display:grid;
+    grid-template-areas : "header header header header header header" "menuu menuu mainn mainn rightt rightt" "menuu menuu footer footer footer footer"; */
+   
+    gap:10px;
+    background-color: blueviolet;
+    padding:10px;
+}
+.gridcontainer > div{
+    background-color: aqua;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 50px;
+     border:10px solid blue; 
+}
